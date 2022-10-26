@@ -1,0 +1,22 @@
+{
+	"Markdown html": {
+		"prefix": ["mdm", "mdh"],
+		"body": [":markdown-it(html)\n\t"],
+		"description": "Markdown it autocompletation"
+	  },
+	"Insert code": {
+		"prefix": ["icc"],
+		"body": ["```$0\n```"],
+		"description": "Inser some code"
+	  },
+	"Code embed": {
+		"prefix": ["cee"],
+		"body": ["+codepen_flex_all(\"$0\")"],
+		"description": "Inser some code"
+	  },
+	"Code file": {
+		"prefix": ["cff"],
+		"body": ["+code_emb_source_u(\"$0\")"],
+		"description": "Inser some code"
+	  },
+}
